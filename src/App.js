@@ -1,11 +1,5 @@
 import { useState, useEffect } from 'react';
-import Header from './components/Header';
-import Button from './components/Button';
-import Tasks from './components/Tasks';
-import AddTask from './components/AddTask';
-import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import {fetchTasks} from './main'
 import Loader from './components/Loader';
 import About from './components/About';
 import useFetchTask from './hooks/useFetchTasks';
